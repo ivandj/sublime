@@ -1,26 +1,12 @@
-Sublime Text 3
-==============
+Sublime Text 3 - TL:DR;
+=======================
 
 # Location
 ```
 /Users/idj/Library/Application Support/Sublime Text 3
 c:\Users\idj\AppData\Roaming\Sublime Text 3\
 ```
-
-# Keyboard Shortcuts
-
-| Keybord ⌘⌃⌥⇧ | Feature |
-| ------------- | ------------- |
-| <kbd>CTRL ⌃</kbd> + <kbd>M</kbd> | Jump to matching bracket |
-| <kbd>CTRL ⌃</kbd> + <kbd>SHIFT ⇧</kbd> + <kbd>M</kbd> | Select everything within the current brackets |
-| <kbd>CTRL ⌃</kbd> + <kbd>SHIFT ⇧</kbd> + <kbd>F</kbd> | Find in files |
-| <kbd>ALT ⌥</kbd> + <kbd>F3</kbd> | Select all instances of word |
-    
-### Links
-- [https://gist.github.com/lucasfais/1207002](https://gist.github.com/lucasfais/1207002)
-- [http://www.cheatography.com/skrobul/cheat-sheets/sublime-text-2-linux/](http://www.cheatography.com/skrobul/cheat-sheets/sublime-text-2-linux/)
-
-
+   
 # [Package Control](https://sublime.wbond.net/installation)
 
 ```python
@@ -185,165 +171,54 @@ import urllib.request,os,hashlib; h = '7183a2d3e96f11eeadd761d777e62404' + 'e330
 
 # Packages
 
-## [Sidebar Enhancements](https://sublime.wbond.net/packages/SideBarEnhancements)
-![sidebare](http://dl.dropbox.com/u/43596449/tito/sublime/SideBar/screenshot.png)
+- [Sidebar Enhancements](https://sublime.wbond.net/packages/SideBarEnhancements)
+- [Bracket Highlighter](https://sublime.wbond.net/packages/BracketHighlighter)
+- [Auto File Name](https://sublime.wbond.net/packages/AutoFileName)
+    
+    Add in User.Settings:
+    ```JSON
+    "auto_complete_triggers":
+    [
+      {
+         "characters": "<",
+         "selector": "text.html"
+      },
+      {
+         "characters": "/",
+         "selector": "string.quoted.double.html,string.quoted.single.html, source.css"
+      }
+    ]
+    ```
 
-## [Bracket Highlighter](https://sublime.wbond.net/packages/BracketHighlighter)
-![br](http://dl.dropbox.com/u/342698/BracketHighlighter/Example1.png)
+- [NodeJS](https://sublime.wbond.net/packages/Nodejs)
+- [PlainTasks](https://sublime.wbond.net/packages/PlainTasks)
+- [Emmet](https://sublime.wbond.net/packages/Emmet)
+- [Sublime Linter](https://sublime.wbond.net/packages/SublimeLinter)
+    - Linters: [PHP](https://sublime.wbond.net/packages/SublimeLinter-php), [JSHint](https://sublime.wbond.net/packages/SublimeLinter-jshint), [JSON](https://sublime.wbond.net/packages/SublimeLinter-json), [HAML](https://sublime.wbond.net/packages/SublimeLinter-haml), [HTML Tidy](https://sublime.wbond.net/packages/SublimeLinter-html-tidy)
+- [Tabs Extra](https://sublime.wbond.net/packages/TabsExtra)
+- [Default File Type](https://sublime.wbond.net/packages/Default%20File%20Type)
+- [Dictionary​Auto​Complete](https://sublime.wbond.net/packages/DictionaryAutoComplete)
+- [jQuery](https://sublime.wbond.net/packages/jQuery)
+- [VAlign](https://sublime.wbond.net/packages/VAlign)
+- [Modific](https://sublime.wbond.net/packages/Modific)
+- [Gutter Color](https://sublime.wbond.net/packages/Gutter%20Color)
+    ImageMagic setup:
 
-## [Auto File Name](https://sublime.wbond.net/packages/AutoFileName)
-Add in User.Settings:
-```JSON
-"auto_complete_triggers":
-[
-  {
-     "characters": "<",
-     "selector": "text.html"
-  },
-  {
-     "characters": "/",
-     "selector": "string.quoted.double.html,string.quoted.single.html, source.css"
-  }
-]
-```
+    ```bash
+        brew uninstall imagemagick
+        brew install imagemagick --with-xz --with-font-config --with-little-cms --with-little-cms2
+    ```  
 
-## [NodeJS](https://sublime.wbond.net/packages/Nodejs)
-![nodejsco](http://i.imgur.com/ZCFcC.png)
- 
-## [PlainTasks](https://sublime.wbond.net/packages/PlainTasks)
-![plaint](http://cl.ly/image/1q100Q212o2Q/ss.png)
- 
-## [Emmet](https://sublime.wbond.net/packages/Emmet)
+    Configuration (User.Settings):
 
-### Available actions
+    ```JSON
+        {
+            "convert_path" : "convert"  
+        }
+    ```
 
-* [Expand Abbreviation](http://docs.emmet.io/actions/expand-abbreviation/) – <kbd>Tab</kbd> or <kbd>Ctrl+E</kbd>
-* Interactive “Expand Abbreviation” — <kbd>Ctrl+Alt+Enter</kbd>
-* [Match Tag Pair Outward](http://docs.emmet.io/actions/match-pair/) – <kbd>⌃D</kbd> (Mac) / <kbd>Ctrl+,</kbd> (PC)
-* [Match Tag Pair Inward](http://docs.emmet.io/actions/match-pair/) – <kbd>⌃J</kbd> / <kbd>Shift+Ctrl+0</kbd>
-* [Go to Matching Pair](http://docs.emmet.io/actions/go-to-pair/) – <kbd>⇧⌃T</kbd> / <kbd>Ctrl+Alt+J</kbd>
-* [Wrap With Abbreviation](http://docs.emmet.io/actions/wrap-with-abbreviation/) — <kbd>⌃W</kbd> / <kbd>Shift+Ctrl+G</kbd>
-* [Go to Edit Point](http://docs.emmet.io/actions/go-to-edit-point/) — <kbd>Ctrl+Alt+→</kbd> or <kbd>Ctrl+Alt+←</kbd>
-* [Select Item](http://docs.emmet.io/actions/select-item/) – <kbd>⇧⌘.</kbd> or <kbd>⇧⌘,</kbd> / <kbd>Shift+Ctrl+.</kbd> or <kbd>Shift+Ctrl+,</kbd>
-* [Toggle Comment](http://docs.emmet.io/actions/toggle-comment/) — <kbd>⇧⌥/</kbd> / <kbd>Shift+Ctrl+/</kbd>
-* [Split/Join Tag](http://docs.emmet.io/actions/split-join-tag/) — <kbd>⇧⌘'</kbd> / <kbd>Shift+Ctrl+`</kbd>
-* [Remove Tag](http://docs.emmet.io/actions/remove-tag/) – <kbd>⌘'</kbd> / <kbd>Shift+Ctrl+;</kbd>
-* [Update Image Size](http://docs.emmet.io/actions/update-image-size/) — <kbd>⇧⌃I</kbd> / <kbd>Ctrl+U</kbd>
-* [Evaluate Math Expression](http://docs.emmet.io/actions/evaluate-math/) — <kbd>⇧⌘Y</kbd> / <kbd>Shift+Ctrl+Y</kbd>
-* [Reflect CSS Value](http://docs.emmet.io/actions/reflect-css-value/) – <kbd>⇧⌘R</kbd> / <kbd>Shift+Ctrl+R</kbd>
-* [Encode/Decode Image to data:URL](http://docs.emmet.io/actions/base64/) – <kbd>⇧⌃D</kbd> / <kbd>Ctrl+'</kbd>
-* Rename Tag – <kbd>⇧⌘K</kbd> / <kbd>Shift+Ctrl+'</kbd>
-
-### [Increment/Decrement Number](http://docs.emmet.io/actions/inc-dec-number/)
-
-* Increment by 1: <kbd>Ctrl+↑</kbd>
-* Decrement by 1: <kbd>Ctrl+↓</kbd>
-* Increment by 0.1: <kbd>Alt+↑</kbd>
-* Decrement by 0.1: <kbd>Alt+↓</kbd>
-* Increment by 10: <kbd>⌥⌘↑</kbd> / <kbd>Shift+Alt+↑</kbd>
-* Decrement by 10: <kbd>⌥⌘↓</kbd> / <kbd>Shift+Alt+↓</kbd>
-
-
-## [Sublime Linter](https://sublime.wbond.net/packages/SublimeLinter)
-- Linters: [PHP](https://sublime.wbond.net/packages/SublimeLinter-php), [JSHint](https://sublime.wbond.net/packages/SublimeLinter-jshint), [JSON](https://sublime.wbond.net/packages/SublimeLinter-json), [HAML](https://sublime.wbond.net/packages/SublimeLinter-haml), [HTML Tidy](https://sublime.wbond.net/packages/SublimeLinter-html-tidy)
-
-
-## [Tabs Extra](https://sublime.wbond.net/packages/TabsExtra)
-![tabse](https://dl.dropboxusercontent.com/u/342698/TabsExtra/Menu.png)
-
-## [Default File Type](https://sublime.wbond.net/packages/Default%20File%20Type)
-
-## [Dictionary​Auto​Complete](https://sublime.wbond.net/packages/DictionaryAutoComplete)
-![discta](https://lh3.googleusercontent.com/-x4YM7vJ1-W4/UXVsHF5l-oI/AAAAAAAAAVk/in3aQcg7jEI/s872/4.gif)
-
-## [jQuery](https://sublime.wbond.net/packages/jQuery)
-![jq](http://i.imgur.com/pASjCdM.png)
-
-## [VAlign](https://sublime.wbond.net/packages/VAlign)
-<kbd>Super</kbd> + <kbd>\\</kbd> 
-
-## [Modific](https://sublime.wbond.net/packages/Modific)
-Highlight lines changed since the last commit (supports Git, SVN, Bazaar, Mercurial and TFS).  
-
-![modific](http://i.imgur.com/DX8TeJT.jpg)
-![modific2](http://i.imgur.com/csCw7.jpg)
-![modific3](http://i.imgur.com/siVOXl.jpg)
-![modigic4](http://i.imgur.com/sldHNl.jpg)
-
-## [Gutter Color](https://sublime.wbond.net/packages/Gutter%20Color)
-ImageMagic setup:
-
-```bash
-    brew uninstall imagemagick
-    brew install imagemagick --with-xz --with-font-config --with-little-cms --with-little-cms2
-```  
-
-Configuration (User.Settings):
-
-```JSON
-    {
-        "convert_path" : "convert"  
-    }
-```
-
-![gutter](https://github.com/ivandj/GutterColor/raw/master/screenshot.png)
-
-## [Accessibility (aria)](https://sublime.wbond.net/packages/Accessibility)
-![aria](https://raw.githubusercontent.com/Yago/ST3-Accessibility/master/demo.gif)
-
-## [Data Converter](https://sublime.wbond.net/packages/DataConverter)
-A package for Sublime Text 2 for converting CSV data to other formats.  
-
-### Examples
-
-Turn this:
-
-    NAME,VALUE,FRUIT,DATE
-    Alice,10,Apple,"Sep. 12, 2012"
-    Bob,11,Blueberry,"Sep. 13, 2012"
-    Chris,12,Orange,"Sep. 14, 2012"
-
-into this (Ruby):
-
-```ruby
-[{"NAME"=>"Alice", "VALUE"=>10, "FRUIT"=>"Apple", "DATE"=>"Sep. 12, 2012"},
-{"NAME"=>"Bob", "VALUE"=>11, "FRUIT"=>"Blueberry", "DATE"=>"Sep. 13, 2012"},
-{"NAME"=>"Chris", "VALUE"=>12, "FRUIT"=>"Orange", "DATE"=>"Sep. 14, 2012"}];
-```
-
-or this (JSON):
-
-```javascript
-[
-  {"FRUIT": "Apple", "NAME": "Alice", "VALUE": "10", "DATE": "Sep. 12, 2012"},
-  {"FRUIT": "Blueberry", "NAME": "Bob", "VALUE": "11", "DATE": "Sep. 13, 2012"},
-  {"FRUIT": "Orange", "NAME": "Chris", "VALUE": "12", "DATE": "Sep. 14, 2012"}
-]
-```
-
-### Formats supported
-
-* ActionScript
-* ASP
-* HTML tables
-* Gherkin
-* JIRA (Atlassian Confluence)
-* JSON
-* JSON (array of columns)
-* JSON (array of rows)
-* Javascript object
-* MySQL
-* Perl
-* PHP (two formats)
-* Python (list of dicts)
-* Python (list of lists)
-* Ruby
-* text table
-* Wiki markup
-* XML
-* XML (property list)
-* XML for data-driven Adobe Illustrator
-* YAML
+- [Accessibility (aria)](https://sublime.wbond.net/packages/Accessibility)
+- [Data Converter](https://sublime.wbond.net/packages/DataConverter)
 
 # Pacakages: Syntax
 
@@ -383,29 +258,9 @@ User.Prefernces:
 }
 ```
 
-Options:
-
-```
-{
-  // square file tabs instead of rounded corners
-  "flatland_square_tabs": true,
-
-  // Monokai color scheme (SublimeText's default) with Flatland background color
-  "color_scheme": "Packages/Theme - Flatland/Flatland Monokai.tmTheme",
-
-  // Ability to change row height of sidebar tree
-  // Options: xsmall, small, medium, large, xlarge
-  "flatland_sidebar_tree_xsmall" : true
-}
-```
-
-![theme](https://raw.github.com/thinkpixellab/flatland/master/screenshots.png)
-
-
 ## [Spacegray](https://sublime.wbond.net/packages/Theme%20-%20Spacegray)
 
-
-#### Settings for Spacegray
+User.Prefernces:
 
 ```json
 {
@@ -413,77 +268,6 @@ Options:
   "color_scheme": "Packages/Theme - Spacegray/base16-ocean.dark.tmTheme"
 }
 ```
-
-#### Settings for Spacegray Light
-
-```json
-{
-  "theme": "Spacegray Light.sublime-theme",
-  "color_scheme": "Packages/Theme - Spacegray/base16-ocean.light.tmTheme"
-}
-```
-
-#### Settings for Spacegray Eighties
-
-```json
-{
-  "theme": "Spacegray Eighties.sublime-theme",
-  "color_scheme": "Packages/Theme - Spacegray/base16-eighties.dark.tmTheme"
-}
-```
-
-***
-
-### Settings
-
-#### Tab labels font size
-
-Copy and paste one of four options in your user preferences file:
-
-```json
-  "spacegray_tabs_font_small": true
-  "spacegray_tabs_font_normal": true
-  "spacegray_tabs_font_large": true
-  "spacegray_tabs_font_xlarge": true
-```
-
-#### Tabs size
-
-Tabs height:
-
-```json
-  "spacegray_tabs_small": true
-  "spacegray_tabs_normal": true
-  "spacegray_tabs_large": true
-  "spacegray_tabs_xlarge": true
-```
-
-Tabs width: 
-
-```json
-  "spacegray_tabs_auto_width": true
-```
-
-#### Sidebar labels font size
-
-```json
-  "spacegray_sidebar_font_small": true
-  "spacegray_sidebar_font_normal": true
-  "spacegray_sidebar_font_large": true
-  "spacegray_sidebar_font_xlarge": true
-```
-
-#### Sidebar tree rows height
-
-```json
-  "spacegray_sidebar_tree_xsmall": true
-  "spacegray_sidebar_tree_small": true
-  "spacegray_sidebar_tree_normal": true
-  "spacegray_sidebar_tree_large": true
-  "spacegray_sidebar_tree_xlarge": true
-```
-
-![theme](https://raw.githubusercontent.com/kkga/spacegray/master/Screenshots/spacegray.png)
 
 ## [Asphalt](https://sublime.wbond.net/packages/Theme%20-%20Asphalt)
 User.Preferences:
@@ -499,71 +283,6 @@ User.Preferences:
     "theme": "Asphalt-orange.sublime-theme",
 }
 ```
-
-#### Addictional settings 
-*("setting_name": "default value", // "alternative value" )*
-
-Enable/Disable Sidebar icons
-```json
-{
-    "theme_asphalt_hide_sidebar_icons": false, // true
-}
-```
-![Sidebar Icons](https://raw.githubusercontent.com/Orlmente/Theme-Asphalt/master/_screenshots_/sidebar_icons.png)
-
-***
-Enable tab scrolling via mousewheel
-```json
-{
-    "theme_asphalt_mouse_tabs_switch": false, // true
-}
-```
-Enable dirty tabs indicator
-```json
-{
-    "theme_asphalt_show_dirty_tabs": false, // true
-}
-```
-![Dirty Tabs](https://raw.githubusercontent.com/Orlmente/Theme-Asphalt/master/_screenshots_/dirty_tabs.png)
-
-***
-Enable previous entries selection dropdown for input fields and close button for bottom panels
-```json
-{
-    "theme_asphalt_show_input_dropdowon": false, // true
-    "theme_asphalt_show_panel_close": false, // true
-}
-```
-![Bottom Panel Extras](https://raw.githubusercontent.com/Orlmente/Theme-Asphalt/master/_screenshots_/bottom_panel_extras.png)
-
-***
-Higher or lower padding for entries in sidebar
-```json
-{
-    "theme_asphalt_sidebar_big": false, // true
-    "theme_asphalt_sidebar_small": false, // true
-}
-```
-![Sidebar Sizes](https://raw.githubusercontent.com/Orlmente/Theme-Asphalt/master/_screenshots_/sidebar_heights.png)
-
-***
-Brighter colour for text in statusbar
-```json
-{
-    "theme_asphalt_status_bar_brighter": false, // true
-}
-```
-Taller or smaller tabs
-```json
-{
-    "theme_asphalt_tabs_big": false, // true
-    "theme_asphalt_tabs_small": false, // true
-}
-```
-![Tab Sizes](https://raw.githubusercontent.com/Orlmente/Theme-Asphalt/master/_screenshots_/tab_heights.png)
-
-
-![theme](https://raw.githubusercontent.com/Orlmente/Theme-Asphalt/master/_screenshots_/Asphalt.png)
 
 ## Misc Themes
 - [http://sheerun.github.io/sublime-wombat-theme/](http://sheerun.github.io/sublime-wombat-theme/)
@@ -617,8 +336,6 @@ Mac Location:
 - [https://www.youtube.com/watch?v=TZ-bgcJ6fQo](https://www.youtube.com/watch?v=TZ-bgcJ6fQo)
 - [http://www.cheatography.com/skrobul/cheat-sheets/sublime-text-2-linux/](http://www.cheatography.com/skrobul/cheat-sheets/sublime-text-2-linux/)
 
-
-
 ## Misc
 - [http://blog.stuartherbert.com/php/2012/02/28/setting-up-sublime-text-2-for-php-development/](http://blog.stuartherbert.com/php/2012/02/28/setting-up-sublime-text-2-for-php-development/)
 - [https://github.com/mrmartineau/SublimeTextSetup](https://github.com/mrmartineau/SublimeTextSetup)
@@ -630,17 +347,3 @@ Mac Location:
 - [http://stackoverflow.com/questions/9495007/indenting-code-in-sublime-text-2](http://stackoverflow.com/questions/9495007/indenting-code-in-sublime-text-2)
 - [http://stackoverflow.com/questions/9499848/sublime-text-2-code-snippet](http://stackoverflow.com/questions/9499848/sublime-text-2-code-snippet)
 - [http://stackoverflow.com/questions/7476220/image-source-completion-for-sublime-text-2](http://stackoverflow.com/questions/7476220/image-source-completion-for-sublime-text-2)
-
-
-
-<br/><br/><br/><br/>
-
-
-
-# Packages To-Check
-- [https://sublime.wbond.net/packages/Asterisk%20Config](https://sublime.wbond.net/packages/Asterisk%20Config)
-- [https://sublime.wbond.net/packages/Missing%20Palette%20Commands](https://sublime.wbond.net/packages/Missing%20Palette%20Commands)
-- [https://sublime.wbond.net/packages/Find%2B%2B](https://sublime.wbond.net/packages/Find%2B%2B)
-- [https://sublime.wbond.net/packages/File%20Navigator](https://sublime.wbond.net/packages/File%20Navigator)
-- [http://www.brentmountford.com/tutorials/sublime-text-2-sftp-setup-usage/](http://www.brentmountford.com/tutorials/sublime-text-2-sftp-setup-usage/)
-
