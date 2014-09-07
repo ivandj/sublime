@@ -294,7 +294,7 @@ User.Preferences:
 
 
 # Icon
-![ico1](https://d13yacurqjgara.cloudfront.net/users/2516/screenshots/382465/dribbble.png)
+![ico1](https://d13yacurqjgara.cloudfront.net/users/2516/screenshots/357612/sublimetext2.jpg)
 [http://dribbble.com/shots/382465-Sublime-Text-2-update-Replacement-Icon](http://dribbble.com/shots/382465-Sublime-Text-2-update-Replacement-Icon)
 [http://dribbble.com/search?page=2&q=sublime+text](http://dribbble.com/search?page=2&q=sublime+text)
 
