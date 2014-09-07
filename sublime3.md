@@ -9,13 +9,12 @@ c:\Users\idj\AppData\Roaming\Sublime Text 3\
 
 # Keyboard Shortcuts
 
-| Keybord  | Feature |
+| Keybord ⇧⌥⌃ | Feature |
 | ------------- | ------------- |
-| <kbd>⇧⌥⌃</kbd> | Placeholder |
-| <kbd>⌃ + M</kbd> | Jump to matching bracket |
-| <kbd>⌃ + ⇧ + M</kbd> | Select everything within the current brackets |
-| <kbd>⌃ + ⇧ + F</kbd> | Find in files |
-| <kbd>⌥ + F3</kbd> | Select all instances of word |
+| <kbd>CTRL ⌃</kbd> + <kbd>M</kbd> | Jump to matching bracket |
+| <kbd>CTRL ⌃</kbd> + <kbd>SHIFT ⇧</kbd> + <kbd>M</kbd> | Select everything within the current brackets |
+| <kbd>CTRL ⌃</kbd> + <kbd>SHIFT ⇧</kbd> + <kbd>F</kbd> | Find in files |
+| <kbd>ALT ⌥</kbd> + <kbd>F3</kbd> | Select all instances of word |
     
 ### Links
 - [https://gist.github.com/lucasfais/1207002](https://gist.github.com/lucasfais/1207002)
