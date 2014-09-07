@@ -1,18 +1,18 @@
 Sublime Text 3 Setup
 ====================
 
-# Consolidated
+### Consolidated
 
 - [All in one page - full details](sublime3.md)
 - [TL:DR;](tldr.md)
 
-# Sections
+### Sections
 
 - [Settings](settings.md)
 - [Packages](packages.md)
 - [Themes](themes.md)
 
-# To-do
+### To-do
 - [Packages To Check](packages-to-do.md)
 
 
