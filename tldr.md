@@ -272,6 +272,11 @@ Mac Location:
         /Contents/Resources/ and replace sublime text.icns with the icons you found
 ```
 
+# Fonts
+
+- [m+ 1m](http://www.fontsquirrel.com/fonts/M-1m)
+- [Envy Code R](http://damieng.com/blog/2008/05/26/envy-code-r-preview-7-coding-font-released)
+
  
 # Links
 
