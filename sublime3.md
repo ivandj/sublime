@@ -32,6 +32,17 @@ import urllib.request,os,hashlib; h = '7183a2d3e96f11eeadd761d777e62404' + 'e330
 {
 	"auto_complete_commit_on_tab": true,
 	"auto_complete_delay": 500,
+	"auto_complete_triggers":
+	[
+	  {
+	     "characters": "<",
+	     "selector": "text.html"
+	  },
+	  {
+	     "characters": "/",
+	     "selector": "string.quoted.double.html,string.quoted.single.html, source.css"
+	  }
+	],
 	"binary_file_patterns":
 	[
 		"*.jpg",
@@ -48,13 +59,6 @@ import urllib.request,os,hashlib; h = '7183a2d3e96f11eeadd761d777e62404' + 'e330
 		"*.jar",
 		"*.zip"
 	],
-	"margin": 4,
-	"match_brackets": true,
-	"match_brackets_braces": true,
-	"match_brackets_content": true,
-	"match_brackets_square": true,
-	"match_tags": true,
-	"open_files_in_new_window": false,
 	"bold_folder_labels": true,
 	"caret_style": "phase",
 	"color_scheme": "Packages/User/Sunburst2 (SL).tmTheme",
@@ -63,9 +67,11 @@ import urllib.request,os,hashlib; h = '7183a2d3e96f11eeadd761d777e62404' + 'e330
 	"dictionary": "Packages/Language - English/en_US.dic",
 	"draw_centered": false,
 	"draw_indent_guides": true,
-    	"draw_minimap_border": true,
+	"draw_minimap_border": true,
 	"enable_hexadecimal_encoding": true,
 	"ensure_newline_at_eof_on_save": false,
+	"fade_fold_buttons": true,
+	"fallback_encoding": "Western (Windows 1252)",
 	"file_exclude_patterns":
 	[
 		"*.pyc",
@@ -88,31 +94,41 @@ import urllib.request,os,hashlib; h = '7183a2d3e96f11eeadd761d777e62404' + 'e330
 		"*.psd",
 		"*.db"
 	],
-	"fade_fold_buttons": true,
-	"fallback_encoding": "Western (Windows 1252)",
+	"find_selected_text": true,
 	"font_face": "m+ 1m medium",
 	"font_size": 16,
-	"find_selected_text": true,
+	"gutter": true,
+	"highlight_line": true,
+	"highlight_modified_tabs": true,
 	"ignored_packages":
 	[
 		"Vintage"
 	],
-	"gutter": true,
-	"highlight_line": true,
-	"highlight_modified_tabs": true,
-	"line_padding_bottom": -3,
-	"line_padding_top": -3,
 	"indent_subsequent_lines": true,
 	"indent_to_bracket": true,
+	"line_padding_bottom": -3,
+	"line_padding_top": -3,
+	"margin": 4,
+	"match_brackets": true,
+	"match_brackets_braces": true,
+	"match_brackets_content": true,
+	"match_brackets_square": true,
+	"match_tags": true,
+	"open_files_in_new_window": false,
 	"remember_open_files": true,
 	"remember_open_folders": true,
-	"smart_indent": true,
+	"rulers":
+	[
+		80
+	],
 	"save_on_focus_lost": true,
 	"scroll_past_end": true,
 	"scroll_speed": 3,
 	"show_full_path": true,
+	"smart_indent": true,
 	"tab_completion": true,
 	"tab_size": 4,
+	"theme": "Flatland Dark.sublime-theme",
 	"trailing_spaces_highlight_color": "comment",
 	"translate_tabs_to_spaces": true,
 	"tree_animation_enabled": true,
@@ -121,11 +137,6 @@ import urllib.request,os,hashlib; h = '7183a2d3e96f11eeadd761d777e62404' + 'e330
 	"use_newline_glyph": true,
 	"use_raw_line_edit_theme": true,
 	"use_tab_stops": true,
-	"rulers":
-	[
-		80
-	],
-	"theme": "Flatland Dark.sublime-theme",
 	"word_separators": "./\\()\"'-:,.;<>~!@#$%^&*|+=[]{}`~?",
 	"word_wrap": "auto"
 }
@@ -174,38 +185,35 @@ import urllib.request,os,hashlib; h = '7183a2d3e96f11eeadd761d777e62404' + 'e330
 
 # Packages
 
-## Sidebar Enhancements 
-Adds additional controls to the items in the Sidebar Folder section.
-- [Package Control](https://sublime.wbond.net/packages/SideBarEnhancements)
-- note: Doesn't work in the open files section.
-
+## [Sidebar Enhancements](https://sublime.wbond.net/packages/SideBarEnhancements)
 ![sidebare](http://dl.dropbox.com/u/43596449/tito/sublime/SideBar/screenshot.png)
 
-## Bracket Highlighter
-Bracket and tag highlighter ([], (), {}, "", '', <tag></tag>)
-- [Package Control](https://sublime.wbond.net/packages/BracketHighlighter)
-
+## [Bracket Highlighter](https://sublime.wbond.net/packages/BracketHighlighter)
 ![br](http://dl.dropbox.com/u/342698/BracketHighlighter/Example1.png)
 
-## Auto File Name
-Autocompletes file names.
-- [Package Control](https://sublime.wbond.net/packages/AutoFileName)
+## [Auto File Name](https://sublime.wbond.net/packages/AutoFileName)
+Add in User.Settings:
+```JSON
+"auto_complete_triggers":
+[
+  {
+     "characters": "<",
+     "selector": "text.html"
+  },
+  {
+     "characters": "/",
+     "selector": "string.quoted.double.html,string.quoted.single.html, source.css"
+  }
+]
+```
 
-## NodeJS
-Snippets and bindings.
-- [Package Control](https://sublime.wbond.net/packages/Nodejs)
-
+## [NodeJS](https://sublime.wbond.net/packages/Nodejs)
 ![nodejsco](http://i.imgur.com/ZCFcC.png)
  
-## PlainTasks
-An opinionated todo-list plugin for Sublime Text editor (version 2 and 3) 
-- [Package Control](https://sublime.wbond.net/packages/PlainTasks)
-
+## [PlainTasks](https://sublime.wbond.net/packages/PlainTasks)
 ![plaint](http://cl.ly/image/1q100Q212o2Q/ss.png)
  
-## Emmet
-Official Emmet plugin (previously called Zen Coding) for Sublime Text. 
-- [Package Control](https://sublime.wbond.net/packages/Emmet)
+## [Emmet](https://sublime.wbond.net/packages/Emmet)
 
 ### Available actions
 
@@ -236,51 +244,33 @@ Official Emmet plugin (previously called Zen Coding) for Sublime Text.
 * Decrement by 10: <kbd>⌥⌘↓</kbd> / <kbd>Shift+Alt+↓</kbd>
 
 
-## Sublime Linter
-Interactive code linting framework. 
-- [Package Control](https://sublime.wbond.net/packages/SublimeLinter)
+## [Sublime Linter](https://sublime.wbond.net/packages/SublimeLinter)
 - Linters: [PHP](https://sublime.wbond.net/packages/SublimeLinter-php), [JSHint](https://sublime.wbond.net/packages/SublimeLinter-jshint), [JSON](https://sublime.wbond.net/packages/SublimeLinter-json), [HAML](https://sublime.wbond.net/packages/SublimeLinter-haml), [HTML Tidy](https://sublime.wbond.net/packages/SublimeLinter-html-tidy)
 
 
-## Tabs Extra
-Sublime Plugin with sticky tabs, more tab closing options, and additional menu items.  
-- [Package Control](https://sublime.wbond.net/packages/TabsExtra)
-
+## [Tabs Extra](https://sublime.wbond.net/packages/TabsExtra)
 ![tabse](https://dl.dropboxusercontent.com/u/342698/TabsExtra/Menu.png)
 
-## Default File Type
-Package which automatically sets the syntax for new files.  
-- [Package Control](https://sublime.wbond.net/packages/Default%20File%20Type)
+## [Default File Type](https://sublime.wbond.net/packages/Default%20File%20Type)
 
-
-## Dictionary​Auto​Complete
-This adds dictionary entries to the completions inside comments. For lazy typers!  
-- [Package Control](https://sublime.wbond.net/packages/DictionaryAutoComplete)
-
+## [Dictionary​Auto​Complete](https://sublime.wbond.net/packages/DictionaryAutoComplete)
 ![discta](https://lh3.googleusercontent.com/-x4YM7vJ1-W4/UXVsHF5l-oI/AAAAAAAAAVk/in3aQcg7jEI/s872/4.gif)
 
-## jQuery
-It has syntax highlighting and almost all of the jquery methods as snippets.  
-- [Package Control](https://sublime.wbond.net/packages/jQuery)
-
+## [jQuery](https://sublime.wbond.net/packages/jQuery)
 ![jq](http://i.imgur.com/pASjCdM.png)
 
-## VAlign
-Vertical alignment plugin. 
-- [Package Control](https://sublime.wbond.net/packages/VAlign)
+## [VAlign](https://sublime.wbond.net/packages/VAlign)
+<kbd>Super</kbd> + <kbd>\\</kbd> 
 
-## Modific
+## [Modific](https://sublime.wbond.net/packages/Modific)
 Highlight lines changed since the last commit (supports Git, SVN, Bazaar, Mercurial and TFS).  
-- [Package Control](https://sublime.wbond.net/packages/Modific)
 
 ![modific](http://i.imgur.com/DX8TeJT.jpg)
 ![modific2](http://i.imgur.com/csCw7.jpg)
 ![modific3](http://i.imgur.com/siVOXl.jpg)
 ![modigic4](http://i.imgur.com/sldHNl.jpg)
 
-## Gutter Color
-- [Package Control](https://sublime.wbond.net/packages/Gutter%20Color)
-
+## [Gutter Color](https://sublime.wbond.net/packages/Gutter%20Color)
 ImageMagic setup:
 
 ```bash
@@ -296,18 +286,13 @@ Configuration (User.Settings):
     }
 ```
 
-
 ![gutter](https://github.com/ivandj/GutterColor/raw/master/screenshot.png)
 
-## Accessibility
-A little ST3 package to provide accessibility attributes completion like WAI ARIA States and Properties and Roles.  
-- [Package Control](https://sublime.wbond.net/packages/Accessibility)
-
+## [Accessibility (aria)](https://sublime.wbond.net/packages/Accessibility)
 ![aria](https://raw.githubusercontent.com/Yago/ST3-Accessibility/master/demo.gif)
 
-## Data Converter
+## [Data Converter](https://sublime.wbond.net/packages/DataConverter)
 A package for Sublime Text 2 for converting CSV data to other formats.  
-- [Package Control](https://sublime.wbond.net/packages/DataConverter)
 
 ### Examples
 
@@ -387,19 +372,13 @@ or this (JSON):
 
 # Themes
 
-<a id="themesFL">
-## Flatland
-[package home](https://sublime.wbond.net/packages/Theme%20-%20Flatland)
+## [Flatland](https://sublime.wbond.net/packages/Theme%20-%20Flatland)
 ![theme](https://raw.github.com/thinkpixellab/flatland/master/screenshots.png)
 
-<a id="themesSG">
-## Spacegray
-[package home](https://sublime.wbond.net/packages/Theme%20-%20Spacegray)
+## [Spacegray](https://sublime.wbond.net/packages/Theme%20-%20Spacegray)
 ![theme](https://raw.githubusercontent.com/kkga/spacegray/master/Screenshots/spacegray.png)
 
-<a id="themesAS">
-## Asphalt
-[package home](https://sublime.wbond.net/packages/Theme%20-%20Asphalt)
+## [Asphalt](https://sublime.wbond.net/packages/Theme%20-%20Asphalt)
 ![theme](https://raw.githubusercontent.com/Orlmente/Theme-Asphalt/master/_screenshots_/Asphalt.png)
 
 ## Misc Themes
@@ -424,7 +403,7 @@ Mac Location:
  
 # Links
 
-## Clean Install/Rever
+## Clean Install/Revert
 - [http://www.sublimetext.com/docs/2/revert.html](http://www.sublimetext.com/docs/2/revert.html)
 
 ## Making Snippets
