@@ -6,12 +6,14 @@ Sublime Text 3 - TL:DR;
 /Users/idj/Library/Application Support/Sublime Text 3
 c:\Users\idj\AppData\Roaming\Sublime Text 3\
 ```
+
    
 # [Package Control](https://sublime.wbond.net/installation)
 
 ```python
 import urllib.request,os,hashlib; h = '7183a2d3e96f11eeadd761d777e62404' + 'e330c659d4bb41d3bdf022e94cab3cd0'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://sublime.wbond.net/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by) 
 ```
+
 
 # User.Settings (Mac)
 ```JSON
@@ -170,6 +172,7 @@ import urllib.request,os,hashlib; h = '7183a2d3e96f11eeadd761d777e62404' + 'e330
 
 
 # Packages
+***
 
 - [Sidebar Enhancements](https://sublime.wbond.net/packages/SideBarEnhancements)
 - [Bracket Highlighter](https://sublime.wbond.net/packages/BracketHighlighter)
@@ -189,7 +192,9 @@ import urllib.request,os,hashlib; h = '7183a2d3e96f11eeadd761d777e62404' + 'e330
 - [Accessibility (aria)](https://sublime.wbond.net/packages/Accessibility)
 - [Data Converter](https://sublime.wbond.net/packages/DataConverter)
 
-# Pacakages: Syntax
+***
+
+# Packages: Syntax
 
 - [CSS3](https://sublime.wbond.net/packages/CSS3)
 - [CSS Less(ish)](https://sublime.wbond.net/packages/CSS%20Less%28ish%29)
@@ -205,6 +210,8 @@ import urllib.request,os,hashlib; h = '7183a2d3e96f11eeadd761d777e62404' + 'e330
 - [Apache Config](https://sublime.wbond.net/packages/ApacheConf.tmLanguage)
 - [.files](https://sublime.wbond.net/packages/Dotfiles%20Syntax%20Highlighting)
 
+***
+
 # Packages: Utility
 - [Terminal](https://sublime.wbond.net/packages/Terminal)
 - [FileDiffs](https://sublime.wbond.net/packages/FileDiffs)
@@ -213,6 +220,8 @@ import urllib.request,os,hashlib; h = '7183a2d3e96f11eeadd761d777e62404' + 'e330
 - [Pretty JSON](https://sublime.wbond.net/packages/Pretty%20JSON)
 - [JSON Reident](https://sublime.wbond.net/packages/JSON%20Reindent)
 - [JSON Tree](https://sublime.wbond.net/packages/JsonTree)
+
+***
 
 # Themes
 
@@ -227,6 +236,8 @@ User.Prefernces:
 }
 ```
 
+***
+
 ## [Spacegray](https://sublime.wbond.net/packages/Theme%20-%20Spacegray)
 
 User.Prefernces:
@@ -237,6 +248,8 @@ User.Prefernces:
   "color_scheme": "Packages/Theme - Spacegray/base16-ocean.dark.tmTheme"
 }
 ```
+
+***
 
 ## [Asphalt](https://sublime.wbond.net/packages/Theme%20-%20Asphalt)
 User.Preferences:
@@ -253,6 +266,8 @@ User.Preferences:
 }
 ```
 
+***
+
 ## Misc Themes
 - [http://sheerun.github.io/sublime-wombat-theme/](http://sheerun.github.io/sublime-wombat-theme/)
 - [https://github.com/raik/st2-pseudo-osx-theme](https://github.com/raik/st2-pseudo-osx-theme)
@@ -261,6 +276,7 @@ User.Preferences:
 - [https://github.com/buymeasoda/soda-theme](https://github.com/buymeasoda/soda-theme)
 - [https://github.com/daylerees/colour-schemes](https://github.com/daylerees/colour-schemes)
 
+***
 
 # Icon
 ![ico1](https://d13yacurqjgara.cloudfront.net/users/2516/screenshots/357612/sublimetext2.jpg)
@@ -272,12 +288,15 @@ Mac Location:
         /Contents/Resources/ and replace sublime text.icns with the icons you found
 ```
 
+***
 # Fonts
 
 - [m+ 1m](http://www.fontsquirrel.com/fonts/M-1m)
 - [Envy Code R](http://damieng.com/blog/2008/05/26/envy-code-r-preview-7-coding-font-released)
 
- 
+
+
+***
 # Links
 
 ## Clean Install/Revert
