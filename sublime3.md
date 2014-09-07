@@ -9,12 +9,11 @@ c:\Users\idj\AppData\Roaming\Sublime Text 3\
 
 # Keyboard Shortcuts
 
-<kbd>⇧⌥⌃</kbd>
-
-    <kbd>⌃ + M</kbd>  Jump to matching bracket
-    <kbd>⌃ + ⇧ + M</kbd> Select everything within the current brackets
-    <kbd>⌃ + ⇧ + F</kbd> Find in files
-    <kbd>⌥ + F3</kbd> Select all instances of word
+| <kbd>⇧⌥⌃</kbd> | Placeholder |
+| <kbd>⌃ + M</kbd> | Jump to matching bracket |
+| <kbd>⌃ + ⇧ + M</kbd> | Select everything within the current brackets |
+| <kbd>⌃ + ⇧ + F</kbd> | Find in files |
+| <kbd>⌥ + F3</kbd> | Select all instances of word |
     
 ### Links
 - [https://gist.github.com/lucasfais/1207002](https://gist.github.com/lucasfais/1207002)
@@ -205,7 +204,7 @@ An opinionated todo-list plugin for Sublime Text editor (version 2 and 3)
 ![plaint](http://cl.ly/image/1q100Q212o2Q/ss.png)
  
 ## Emmet
-Emmet (ex-Zen Coding). 
+Official Emmet plugin (previously called Zen Coding) for Sublime Text. 
 - [Package Control](https://sublime.wbond.net/packages/Emmet)
 
 ### Available actions
