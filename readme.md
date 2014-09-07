@@ -13,7 +13,7 @@ Sublime Text 3 Setup
 - [Themes](themes.md)
 
 ### To-do
-- [Packages To Check](packages-to-do.md)
+- [Candidates](candidates.md)
 
 
 ***
