@@ -7,6 +7,8 @@ Sublime Text 3
 c:\Users\idj\AppData\Roaming\Sublime Text 3\
 ```
 
+***
+
 # Keyboard Shortcuts
 
 | Keybord ⌘⌃⌥⇧ | Feature |
@@ -21,13 +23,17 @@ c:\Users\idj\AppData\Roaming\Sublime Text 3\
 - [http://www.cheatography.com/skrobul/cheat-sheets/sublime-text-2-linux/](http://www.cheatography.com/skrobul/cheat-sheets/sublime-text-2-linux/)
 
 
+***
+
 # [Package Control](https://sublime.wbond.net/installation)
 
 ```python
 import urllib.request,os,hashlib; h = '7183a2d3e96f11eeadd761d777e62404' + 'e330c659d4bb41d3bdf022e94cab3cd0'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://sublime.wbond.net/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by) 
 ```
 
-# User.Settings (Mac)
+***
+
+## User.Settings (Mac)
 ```JSON
 {
 	"auto_complete_commit_on_tab": true,
@@ -142,7 +148,7 @@ import urllib.request,os,hashlib; h = '7183a2d3e96f11eeadd761d777e62404' + 'e330
 }
 ```
 
-# User.Keybindings (Mac)
+## User.Keybindings (Mac)
 ```JSON
 [
     { "keys": ["f1"], "command": "goto_documentation" },
@@ -171,7 +177,7 @@ import urllib.request,os,hashlib; h = '7183a2d3e96f11eeadd761d777e62404' + 'e330
 ]
 ```
 
-# User.Keybindings (Win)
+## User.Keybindings (Win)
 ```JSON
 [
     { "keys": ["alt+f"], "command": "goto_definition" },
@@ -182,6 +188,7 @@ import urllib.request,os,hashlib; h = '7183a2d3e96f11eeadd761d777e62404' + 'e330
 ]
 ```
 
+***
 
 # Packages
 
@@ -211,6 +218,8 @@ Add in User.Settings:
 ![nodejsco](http://i.imgur.com/ZCFcC.png)
  
 ## [PlainTasks](https://sublime.wbond.net/packages/PlainTasks)
+
+User.Preferences:
 
 ```json
 {
@@ -381,7 +390,9 @@ or this (JSON):
 * XML for data-driven Adobe Illustrator
 * YAML
 
-# Pacakages: Syntax
+***
+
+# Packages: Syntax
 
 - [CSS3](https://sublime.wbond.net/packages/CSS3)
 - [CSS Less(ish)](https://sublime.wbond.net/packages/CSS%20Less%28ish%29)
@@ -397,6 +408,8 @@ or this (JSON):
 - [Apache Config](https://sublime.wbond.net/packages/ApacheConf.tmLanguage)
 - [.files](https://sublime.wbond.net/packages/Dotfiles%20Syntax%20Highlighting)
 
+***
+
 # Packages: Utility
 - [Terminal](https://sublime.wbond.net/packages/Terminal)
 - [FileDiffs](https://sublime.wbond.net/packages/FileDiffs)
@@ -405,6 +418,8 @@ or this (JSON):
 - [Pretty JSON](https://sublime.wbond.net/packages/Pretty%20JSON)
 - [JSON Reident](https://sublime.wbond.net/packages/JSON%20Reindent)
 - [JSON Tree](https://sublime.wbond.net/packages/JsonTree)
+
+***
 
 # Themes
 
@@ -438,6 +453,8 @@ Options:
 ![theme](https://raw.github.com/thinkpixellab/flatland/master/screenshots.png)
 
 
+***
+
 ## [Spacegray](https://sublime.wbond.net/packages/Theme%20-%20Spacegray)
 
 
@@ -467,8 +484,6 @@ Options:
   "color_scheme": "Packages/Theme - Spacegray/base16-eighties.dark.tmTheme"
 }
 ```
-
-***
 
 ### Settings
 
@@ -521,6 +536,8 @@ Tabs width:
 
 ![theme](https://raw.githubusercontent.com/kkga/spacegray/master/Screenshots/spacegray.png)
 
+***
+
 ## [Asphalt](https://sublime.wbond.net/packages/Theme%20-%20Asphalt)
 User.Preferences:
 
@@ -547,7 +564,6 @@ Enable/Disable Sidebar icons
 ```
 ![Sidebar Icons](https://raw.githubusercontent.com/Orlmente/Theme-Asphalt/master/_screenshots_/sidebar_icons.png)
 
-***
 Enable tab scrolling via mousewheel
 ```json
 {
@@ -562,7 +578,6 @@ Enable dirty tabs indicator
 ```
 ![Dirty Tabs](https://raw.githubusercontent.com/Orlmente/Theme-Asphalt/master/_screenshots_/dirty_tabs.png)
 
-***
 Enable previous entries selection dropdown for input fields and close button for bottom panels
 ```json
 {
@@ -572,7 +587,6 @@ Enable previous entries selection dropdown for input fields and close button for
 ```
 ![Bottom Panel Extras](https://raw.githubusercontent.com/Orlmente/Theme-Asphalt/master/_screenshots_/bottom_panel_extras.png)
 
-***
 Higher or lower padding for entries in sidebar
 ```json
 {
@@ -582,7 +596,6 @@ Higher or lower padding for entries in sidebar
 ```
 ![Sidebar Sizes](https://raw.githubusercontent.com/Orlmente/Theme-Asphalt/master/_screenshots_/sidebar_heights.png)
 
-***
 Brighter colour for text in statusbar
 ```json
 {
@@ -609,6 +622,7 @@ Taller or smaller tabs
 - [https://github.com/buymeasoda/soda-theme](https://github.com/buymeasoda/soda-theme)
 - [https://github.com/daylerees/colour-schemes](https://github.com/daylerees/colour-schemes)
 
+***
 
 # Icon
 ![ico1](https://d13yacurqjgara.cloudfront.net/users/2516/screenshots/357612/sublimetext2.jpg)
@@ -620,6 +634,8 @@ Mac Location:
         /Contents/Resources/ and replace sublime text.icns with the icons you found
 ```
 
+***
+
 # Fonts
 
 ### [m+ 1m](http://www.fontsquirrel.com/fonts/M-1m)
@@ -628,6 +644,8 @@ Mac Location:
 ### [Envy Code R](http://damieng.com/blog/2008/05/26/envy-code-r-preview-7-coding-font-released)
 ![envy1](http://images.damieng.com/blog/EnvyCodeR-PR7-Humane.png) 
 ![envy2](http://images.damieng.com/blog/EnvyCodeR-PR7-Humane-Large.png) 
+
+***
  
 # Links
 
@@ -660,8 +678,6 @@ Mac Location:
 - [http://blog.alexmaccaw.com/sublime-text](http://blog.alexmaccaw.com/sublime-text)
 - [https://www.youtube.com/watch?v=TZ-bgcJ6fQo](https://www.youtube.com/watch?v=TZ-bgcJ6fQo)
 - [http://www.cheatography.com/skrobul/cheat-sheets/sublime-text-2-linux/](http://www.cheatography.com/skrobul/cheat-sheets/sublime-text-2-linux/)
-
-
 
 ## Misc
 - [http://blog.stuartherbert.com/php/2012/02/28/setting-up-sublime-text-2-for-php-development/](http://blog.stuartherbert.com/php/2012/02/28/setting-up-sublime-text-2-for-php-development/)
