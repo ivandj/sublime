@@ -3,6 +3,8 @@ Sublime Text 3 - To Check
 
 ### Packages
 
+- [color highlihter](https://sublime.wbond.net/packages/Color%20Highlighter)
+- [color picker](https://github.com/weslly/ColorPicker)
 - [sublimall](https://sublime.wbond.net/packages/Sublimall)
 - [fake data gen](https://sublime.wbond.net/packages/FakeDataGenerator)
 - [inline google translate](https://sublime.wbond.net/packages/Inline%20Google%20Translate)
@@ -39,3 +41,11 @@ Sublime Text 3 - To Check
 
   "indent_guide_options": ["draw_normal", "draw_active"]
 ```
+
+### links
+
+- [visual guide](http://webdesign.tutsplus.com/articles/simple-visual-enhancements-for-better-coding-in-sublime-text--webdesign-18052)
+- [best tut1](http://scotch.io/bar-talk/best-of-sublime-text-3-features-plugins-and-settings)
+- [best tut2](http://scotch.io/series/the-complete-visual-guide-to-sublime-text-3)
+- [words as sep](http://stackoverflow.com/questions/15906097/use-upper-case-as-word-separator-in-sublime-text-2/18395287#18395287)
+- [35 themes](http://designbeep.com/2014/06/10/35-cool-sublime-text-themes/)
