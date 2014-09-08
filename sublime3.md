@@ -17,7 +17,8 @@ c:\Users\idj\AppData\Roaming\Sublime Text 3\
 | <kbd>CTRL ⌃</kbd> + <kbd>SHIFT ⇧</kbd> + <kbd>M</kbd> | Select everything within the current brackets |
 | <kbd>CTRL ⌃</kbd> + <kbd>SHIFT ⇧</kbd> + <kbd>F</kbd> | Find in files |
 | <kbd>ALT ⌥</kbd> + <kbd>F3</kbd> | Select all instances of word |
-    
+| <kbd>CTRL ⌃</kbd> + <kbd>SHIFT ⇧</kbd> + <kbd>W</kbd>| Wrap Selection in Tag |
+
 ### Links
 - [https://gist.github.com/lucasfais/1207002](https://gist.github.com/lucasfais/1207002)
 - [http://www.cheatography.com/skrobul/cheat-sheets/sublime-text-2-linux/](http://www.cheatography.com/skrobul/cheat-sheets/sublime-text-2-linux/)
