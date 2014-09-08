@@ -415,6 +415,7 @@ or this (JSON):
 ***
 
 # Packages: Utility
+- [More Layouts](https://sublime.wbond.net/packages/More%20Layouts)
 - [Terminal](https://sublime.wbond.net/packages/Terminal)
 - [FileDiffs](https://sublime.wbond.net/packages/FileDiffs)
 - [Minifier](https://sublime.wbond.net/packages/Minifier)
