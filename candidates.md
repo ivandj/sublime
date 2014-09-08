@@ -17,9 +17,11 @@ Sublime Text 3 - To Check
 ### Settings to check
 
 ```
-"caret_extra_bottom": 2
-"caret_extra_top": 2
-"caret_extra_width": 4
-"caret_style": "solid"
-"wide_caret": true
+  "caret_extra_bottom": 2
+  "caret_extra_top": 2
+  "caret_extra_width": 4
+  "caret_style": "solid"
+  "wide_caret": true
+
+  "indent_guide_options": ["draw_normal", "draw_active"]
 ```
