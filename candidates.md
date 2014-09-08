@@ -1,7 +1,7 @@
 Sublime Text 3 - To Check
 ==================================
 
-# Packages
+### Packages
 
 - [git gutter](https://sublime.wbond.net/packages/GitGutter)
 - [origami](https://sublime.wbond.net/packages/Origami)
@@ -14,4 +14,12 @@ Sublime Text 3 - To Check
 - [file nav](https://sublime.wbond.net/packages/File%20Navigator)
 - [sftp](http://www.brentmountford.com/tutorials/sublime-text-2-sftp-setup-usage/)
 
-# Settings to check
+### Settings to check
+
+```
+"caret_extra_bottom": 2
+"caret_extra_top": 2
+"caret_extra_width": 4
+"caret_style": "solid"
+"wide_caret": true
+```
