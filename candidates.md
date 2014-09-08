@@ -1,6 +1,7 @@
 Sublime Text 3 - Packages To Check
 ==================================
 
+- [https://sublime.wbond.net/packages/Twitter%20Bootstrap%20Snippets](https://sublime.wbond.net/packages/Twitter%20Bootstrap%20Snippets)
 - [https://sublime.wbond.net/packages/HTML%20Snippets](https://sublime.wbond.net/packages/HTML%20Snippets)
 - [https://sublime.wbond.net/packages/Theme%20-%20Lyte](https://sublime.wbond.net/packages/Theme%20-%20Lyte)
 - [https://sublime.wbond.net/packages/Asterisk%20Config](https://sublime.wbond.net/packages/Asterisk%20Config)
