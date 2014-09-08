@@ -15,6 +15,10 @@ Sublime Text 3 Setup
 ### To-do
 - [Candidates](candidates.md)
 
+### Power User
+- [Become a Sublime Text 
+Power User by Wes Bos](http://wesbos.github.io/Sublime-Text-Power-User-Talk/#1)
+
 
 ***
 
