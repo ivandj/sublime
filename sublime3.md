@@ -262,6 +262,8 @@ User.Preferences:
  
 ## [Emmet](https://sublime.wbond.net/packages/Emmet)
 
+![emmet](http://wesbos.github.io/Sublime-Text-Power-User-Talk/images/emmet-html.gif)
+
 ### Available actions
 
 * [Expand Abbreviation](http://docs.emmet.io/actions/expand-abbreviation/) – <kbd>Tab</kbd> or <kbd>Ctrl+E</kbd>
