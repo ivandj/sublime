@@ -15,6 +15,8 @@ c:\Users\idj\AppData\Roaming\Sublime Text 3\
 | <kbd>CTRL ⌃</kbd> + <kbd>SHIFT ⇧</kbd> + <kbd>M</kbd> | Select everything within the current brackets |
 | <kbd>CTRL ⌃</kbd> + <kbd>SHIFT ⇧</kbd> + <kbd>F</kbd> | Find in files |
 | <kbd>ALT ⌥</kbd> + <kbd>F3</kbd> | Select all instances of word |
+| <kbd>CTRL ⌃</kbd> + <kbd>SHIFT ⇧</kbd> + <kbd>W</kbd>| Wrap Selection in Tag |
+| <kbd>SUPERL ⌘</kbd> + <kbd>'</kbd> | Expand to Quotes |
     
 ### Links
 - [https://gist.github.com/lucasfais/1207002](https://gist.github.com/lucasfais/1207002)
@@ -27,21 +29,21 @@ c:\Users\idj\AppData\Roaming\Sublime Text 3\
 import urllib.request,os,hashlib; h = '7183a2d3e96f11eeadd761d777e62404' + 'e330c659d4bb41d3bdf022e94cab3cd0'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://sublime.wbond.net/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by) 
 ```
 
-# User.Settings (Mac)
+## User.Settings (Mac)
 ```JSON
 {
 	"auto_complete_commit_on_tab": true,
 	"auto_complete_delay": 500,
 	"auto_complete_triggers":
 	[
-	  {
-	     "characters": "<",
-	     "selector": "text.html"
-	  },
-	  {
-	     "characters": "/",
-	     "selector": "string.quoted.double.html,string.quoted.single.html, source.css"
-	  }
+		{
+			"characters": "<",
+			"selector": "text.html"
+		},
+		{
+			"characters": "/",
+			"selector": "string.quoted.double.html,string.quoted.single.html, source.css"
+		}
 	],
 	"binary_file_patterns":
 	[
@@ -65,6 +67,11 @@ import urllib.request,os,hashlib; h = '7183a2d3e96f11eeadd761d777e62404' + 'e330
 	"default_encoding": "UTF-8",
 	"detect_indentation": true,
 	"dictionary": "Packages/Language - English/en_US.dic",
+	"caret_extra_bottom": 2,
+	"caret_extra_top": 2,
+	"caret_extra_width": 3,
+	"wide_caret": true,
+	"indent_guide_options": ["draw_normal", "draw_active"],
 	"draw_centered": false,
 	"draw_indent_guides": true,
 	"draw_minimap_border": true,
@@ -102,7 +109,8 @@ import urllib.request,os,hashlib; h = '7183a2d3e96f11eeadd761d777e62404' + 'e330
 	"highlight_modified_tabs": true,
 	"ignored_packages":
 	[
-		"Vintage"
+		"Vintage",
+		"Markdown"
 	],
 	"indent_subsequent_lines": true,
 	"indent_to_bracket": true,
@@ -142,7 +150,7 @@ import urllib.request,os,hashlib; h = '7183a2d3e96f11eeadd761d777e62404' + 'e330
 }
 ```
 
-# User.Keybindings (Mac)
+## User.Keybindings (Mac)
 ```JSON
 [
     { "keys": ["f1"], "command": "goto_documentation" },
@@ -171,7 +179,7 @@ import urllib.request,os,hashlib; h = '7183a2d3e96f11eeadd761d777e62404' + 'e330
 ]
 ```
 
-# User.Keybindings (Win)
+## User.Keybindings (Win)
 ```JSON
 [
     { "keys": ["alt+f"], "command": "goto_definition" },

@@ -42,14 +42,14 @@ import urllib.request,os,hashlib; h = '7183a2d3e96f11eeadd761d777e62404' + 'e330
 	"auto_complete_delay": 500,
 	"auto_complete_triggers":
 	[
-	  {
-	     "characters": "<",
-	     "selector": "text.html"
-	  },
-	  {
-	     "characters": "/",
-	     "selector": "string.quoted.double.html,string.quoted.single.html, source.css"
-	  }
+		{
+			"characters": "<",
+			"selector": "text.html"
+		},
+		{
+			"characters": "/",
+			"selector": "string.quoted.double.html,string.quoted.single.html, source.css"
+		}
 	],
 	"binary_file_patterns":
 	[
@@ -73,6 +73,11 @@ import urllib.request,os,hashlib; h = '7183a2d3e96f11eeadd761d777e62404' + 'e330
 	"default_encoding": "UTF-8",
 	"detect_indentation": true,
 	"dictionary": "Packages/Language - English/en_US.dic",
+	"caret_extra_bottom": 2,
+	"caret_extra_top": 2,
+	"caret_extra_width": 3,
+	"wide_caret": true,
+	"indent_guide_options": ["draw_normal", "draw_active"],
 	"draw_centered": false,
 	"draw_indent_guides": true,
 	"draw_minimap_border": true,
@@ -110,7 +115,8 @@ import urllib.request,os,hashlib; h = '7183a2d3e96f11eeadd761d777e62404' + 'e330
 	"highlight_modified_tabs": true,
 	"ignored_packages":
 	[
-		"Vintage"
+		"Vintage",
+		"Markdown"
 	],
 	"indent_subsequent_lines": true,
 	"indent_to_bracket": true,
@@ -218,6 +224,22 @@ Add in User.Settings:
 
 ## [NodeJS](https://sublime.wbond.net/packages/Nodejs)
 ![nodejsco](http://i.imgur.com/ZCFcC.png)
+
+## [Git](https://sublime.wbond.net/packages/Git)
+![gitimg](https://github.com/kemayo/sublime-text-git/wiki/images/palette.png)
+
+## [GitGutter](https://sublime.wbond.net/packages/GitGutter)
+![gitgutterimg](https://raw.github.com/jisaacks/GitGutter/master/screenshot.png)
+
+## [Origami](https://sublime.wbond.net/packages/Origami)
+![origami](http://wesbos.github.io/Sublime-Text-Power-User-Talk/images/woah.png)
+
+## [Color Picker](https://sublime.wbond.net/packages/ColorPicker)
+Mac: <kbd>SUPER ⌘</kbd> + <kbd>SHIFT ⇧</kbd> + <kbd>c</kbd><br/>
+Win: <kbd>CTRL ⌃</kbd> + <kbd>SHIFT ⇧</kbd> + <kbd>c</kbd>
+
+![color picker](http://i.minus.com/i5KI6SBAfs7Qk.png)
+
  
 ## [PlainTasks](https://sublime.wbond.net/packages/PlainTasks)
 
@@ -400,10 +422,15 @@ or this (JSON):
 
 - [CSS3](https://sublime.wbond.net/packages/CSS3)
 - [CSS Less(ish)](https://sublime.wbond.net/packages/CSS%20Less%28ish%29)
+- [Hayaku - tools for writing CSS faster](https://sublime.wbond.net/packages/Hayaku%20-%20tools%20for%20writing%20CSS%20faster)
 - [SCSS](https://sublime.wbond.net/packages/SCSS)
 - [Stylus](https://sublime.wbond.net/packages/Stylus)
+- [Markdown Editing](https://sublime.wbond.net/packages/MarkdownEditing)
 - [EJS](https://sublime.wbond.net/packages/EJS)
 - [Java​Script​Next - ES6 Syntax](https://sublime.wbond.net/packages/JavaScriptNext%20-%20ES6%20Syntax)
+- [List LESS variables](https://sublime.wbond.net/packages/List%20LESS%20Variables)
+- [List Stylesheet variables](https://sublime.wbond.net/packages/List%20stylesheet%20variables)
+- [Jekyll](https://sublime.wbond.net/packages/Jekyll)
 - [Liquid](https://sublime.wbond.net/packages/Liquid)
 - [HAML](https://sublime.wbond.net/packages/Haml)
 - [PHP Haml](https://sublime.wbond.net/packages/PHP%20Haml)
@@ -415,6 +442,10 @@ or this (JSON):
 ***
 
 # Packages: Utility
+- [TableEditor](https://sublime.wbond.net/packages/Table%20Editor)
+- [Find++](https://sublime.wbond.net/packages/Find%2B%2B)
+- [BetteFindBuffer](https://sublime.wbond.net/packages/BetterFindBuffer)
+- [Inline google translate](https://sublime.wbond.net/packages/Inline%20Google%20Translate)
 - [More Layouts](https://sublime.wbond.net/packages/More%20Layouts)
 - [Terminal](https://sublime.wbond.net/packages/Terminal)
 - [FileDiffs](https://sublime.wbond.net/packages/FileDiffs)
