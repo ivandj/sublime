@@ -31,7 +31,7 @@ Sublime Text 3
     - [Misc](#thm)
 - [Icon](#icon)
 - [Fonts](#fonts)
-- [Location](#loc)
+- [Location](#locjump)
 - [Keybindings](#kbd)
 - [Preferences](#prefs)
 - [Links](#links)
@@ -437,7 +437,7 @@ Mac Location:
 
 ***
 
-<a id="loc">
+<a id="locjump">
 # Location
 ```
 /Users/idj/Library/Application Support/Sublime Text 3
