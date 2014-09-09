@@ -93,6 +93,7 @@ Add in User.Settings:
 ## [Color Picker](https://sublime.wbond.net/packages/ColorPicker)
 Mac: <kbd>SUPER ⌘</kbd> + <kbd>SHIFT ⇧</kbd> + <kbd>c</kbd><br/>
 Win: <kbd>CTRL ⌃</kbd> + <kbd>SHIFT ⇧</kbd> + <kbd>c</kbd>
+
 ![color picker](images/colorp.png)
 
 ## [PlainTasks](https://sublime.wbond.net/packages/PlainTasks)
