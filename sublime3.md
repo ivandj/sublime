@@ -23,7 +23,37 @@ Sublime Text 3
     - [Accessibility (aria)](#accessibility-aria)
     - [Data Converter](#data-converter)
     - [Packages: Syntax](#packages-syntax)
+        - CSS3
+        - CSS Less(ish)
+        - Hayaku - tools for writing CSS faster
+        - SCSS
+        - Stylus
+        - Markdown Editing
+        - EJS
+        - Java​Script​Next - ES6 Syntax
+        - List LESS variables
+        - List Stylesheet variables
+        - Jekyll
+        - Liquid
+        - HAML
+        - PHP Haml
+        - Jade
+        - Jade Snippets
+        - Apache Config
+        - .files
     - [Packages: Utility](#packages-utility)
+        - TableEditor
+        - Find++
+        - BetteFindBuffer
+        - Inline google translate
+        - More Layouts
+        - Terminal
+        - FileDiffs
+        - Minifier
+        - Keymaps
+        - Pretty JSON
+        - JSON Reident
+        - JSON Tree
 - [Themes](#themes)
     - [Flatland](#flatland)
     - [Spacegray](#spacegray)
