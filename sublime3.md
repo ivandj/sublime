@@ -428,6 +428,8 @@ c:\Users\idj\AppData\Roaming\Sublime Text 3\
 ***
 
 ## Keybindings (Mac)
+If you are primarly working on a Windows machine and are used to using <kbd>CTRL</kbd> + <kbd>PageUP/DN</kbd> you might want check the following bindings:
+
 ```JSON
 [
     { "keys": ["f1"], "command": "goto_documentation" },
