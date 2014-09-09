@@ -1,6 +1,8 @@
 Sublime Text 3
 ==============
 
+- [Packages](#packages)
+
 # Location
 ```
 /Users/idj/Library/Application Support/Sublime Text 3
@@ -198,6 +200,7 @@ import urllib.request,os,hashlib; h = '7183a2d3e96f11eeadd761d777e62404' + 'e330
 
 ***
 
+<a id="packages">
 # Packages
 
 ## [Sidebar Enhancements](https://sublime.wbond.net/packages/SideBarEnhancements)
