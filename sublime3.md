@@ -33,7 +33,7 @@ Sublime Text 3
 - [Fonts](#fonts)
 - [Location](#locjump)
 - [Keybindings](#kbd)
-- [Preferences](#prefs)
+- [Preferences](#pref1s)
 - [Links](#links)
 
 ***
@@ -49,15 +49,12 @@ import urllib.request,os,hashlib; h = '7183a2d3e96f11eeadd761d777e62404' + 'e330
 <a id="packages">
 # Packages
 
-<a id="pckg1"></a>
 ## [Sidebar Enhancements](https://sublime.wbond.net/packages/SideBarEnhancements)
 ![sidebare](images/sidebar.png)
 
-<a id="pckg2">
 ## [Bracket Highlighter](https://sublime.wbond.net/packages/BracketHighlighter)
 ![br](images/bracketh.png)
 
-<a id="pckg3">
 ## [Auto File Name](https://sublime.wbond.net/packages/AutoFileName)
 Add in User.Settings:
 ```JSON
@@ -74,30 +71,23 @@ Add in User.Settings:
 ]
 ```
 
-<a id="pckg4">
 ## [NodeJS](https://sublime.wbond.net/packages/Nodejs)
 ![nodejsco](images/nodejs.png)
 
-<a id="pckg5">
 ## [Git](https://sublime.wbond.net/packages/Git)
 ![gitimg](images/git.png)
 
-<a id="pckg6">
 ## [GitGutter](https://sublime.wbond.net/packages/GitGutter)
 ![gitgutterimg](images/gitgutter.png)
 
-<a id="pckg7">
 ## [Origami](https://sublime.wbond.net/packages/Origami)
 ![origami](images/origami.png)
 
-<a id="pckg8">
 ## [Color Picker](https://sublime.wbond.net/packages/ColorPicker)
 Mac: <kbd>SUPER ⌘</kbd> + <kbd>SHIFT ⇧</kbd> + <kbd>c</kbd><br/>
 Win: <kbd>CTRL ⌃</kbd> + <kbd>SHIFT ⇧</kbd> + <kbd>c</kbd>
 ![color picker](images/colorp.png)
 
-
-<a id="pckg9">
 ## [PlainTasks](https://sublime.wbond.net/packages/PlainTasks)
 
 User.Preferences:
@@ -140,7 +130,6 @@ User.Preferences:
 ![plaint](images/plaintasks.png)
  
 
-<a id="pckg10">
 ## [Emmet](https://sublime.wbond.net/packages/Emmet)
 
 ![emmet](images/emmet.gif)
@@ -173,39 +162,31 @@ User.Preferences:
 * Increment by 10: <kbd>⌥⌘↑</kbd> / <kbd>Shift+Alt+↑</kbd>
 * Decrement by 10: <kbd>⌥⌘↓</kbd> / <kbd>Shift+Alt+↓</kbd>
 
-<a id="pckg11">
 ## [Sublime Linter](https://sublime.wbond.net/packages/SublimeLinter)
 - Linters: [PHP](https://sublime.wbond.net/packages/SublimeLinter-php), [JSHint](https://sublime.wbond.net/packages/SublimeLinter-jshint), [JSON](https://sublime.wbond.net/packages/SublimeLinter-json), [HAML](https://sublime.wbond.net/packages/SublimeLinter-haml), [HTML Tidy](https://sublime.wbond.net/packages/SublimeLinter-html-tidy)
 
-<a id="pckg12">
 ## [Tabs Extra](https://sublime.wbond.net/packages/TabsExtra)
 
 ![tabse](images/tabsx.png)
 
-<a id="pckg13">
 ## [Default File Type](https://sublime.wbond.net/packages/Default%20File%20Type)
 
-<a id="pckg14">
 ## [Dictionary​Auto​Complete](https://sublime.wbond.net/packages/DictionaryAutoComplete)
 
 ![discta](images/dictac.gif)
 
-<a id="pckg15">
 ## [jQuery](https://sublime.wbond.net/packages/jQuery)
 
 ![jq](images/jq.png)
 
-<a id="pckg16">
 ## [VAlign](https://sublime.wbond.net/packages/VAlign)
 <kbd>Super ⌘</kbd> + <kbd>\\</kbd> 
 
-<a id="pckg17">
 ## [Modific](https://sublime.wbond.net/packages/Modific)
 Highlight lines changed since the last commit (supports Git, SVN, Bazaar, Mercurial and TFS).  
 
 ![modific](images/modific1.jpg)
 
-<a id="pckg18">
 ## [Gutter Color](https://sublime.wbond.net/packages/Gutter%20Color)
 ImageMagic setup:
 
@@ -224,11 +205,9 @@ Configuration (User.Settings):
 
 ![gutter](images/gutterc.png)
 
-<a id="pckg19">
 ## [Accessibility (aria)](https://sublime.wbond.net/packages/Accessibility)
 ![aria](images/aria.gif)
 
-<a id="pckg20">
 ## [Data Converter](https://sublime.wbond.net/packages/DataConverter)
 A package for Sublime Text 2 for converting CSV data to other formats.  
 
@@ -285,7 +264,6 @@ or this (JSON):
 
 ***
 
-<a id="pckgs">
 # Packages: Syntax
 
 - [CSS3](https://sublime.wbond.net/packages/CSS3)
@@ -309,7 +287,6 @@ or this (JSON):
 
 ***
 
-<a id="pckgu">
 # Packages: Utility
 - [TableEditor](https://sublime.wbond.net/packages/Table%20Editor)
 - [Find++](https://sublime.wbond.net/packages/Find%2B%2B)
@@ -329,7 +306,6 @@ or this (JSON):
 <a id="themes">
 # Themes
 
-<a id="th1">
 ## [Flatland](https://sublime.wbond.net/packages/Theme%20-%20Flatland)
 
 User.Prefernces:
@@ -361,7 +337,6 @@ Options:
 
 ***
 
-<a id="th2">
 ## [Spacegray](https://sublime.wbond.net/packages/Theme%20-%20Spacegray)
 
 
@@ -384,7 +359,6 @@ Options:
 
 ***
 
-<a id="th3">
 ## [Asphalt](https://sublime.wbond.net/packages/Theme%20-%20Asphalt)
 User.Preferences:
 
@@ -437,7 +411,6 @@ Mac Location:
 
 ***
 
-<a id="locjump">
 # Location
 ```
 /Users/idj/Library/Application Support/Sublime Text 3
@@ -447,7 +420,6 @@ c:\Users\idj\AppData\Roaming\Sublime Text 3\
 
 ***
 
-<a id="kbd">
 ## User.Keybindings (Mac)
 ```JSON
 [
@@ -507,7 +479,7 @@ c:\Users\idj\AppData\Roaming\Sublime Text 3\
 
 ***
 
-<a id="prefs">
+<a id="pref1s">
 ## User.Settings (Mac)
 ```JSON
 {
