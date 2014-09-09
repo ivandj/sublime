@@ -33,7 +33,7 @@ Sublime Text 3
 - [Fonts](#fonts)
 - [Location](#locjump)
 - [Keybindings](#Keybindings)
-- [Preferences](#pref1s)
+- [Preferences](#usersettings-mac)
 - [Links](#links)
 
 ***
