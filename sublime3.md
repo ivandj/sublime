@@ -2,7 +2,7 @@ Sublime Text 3
 ==============
 
 - [Packages](#packages)
-    - [Sidebar Enhancements]()
+    - [Sidebar Enhancements](## Sidebar Enhancements)
     - [Bracket Highlighter](#pckg2)
     - [Auto File Name](#pckg3)
     - [NodeJS](#pckg4)
@@ -49,7 +49,7 @@ import urllib.request,os,hashlib; h = '7183a2d3e96f11eeadd761d777e62404' + 'e330
 <a id="packages">
 # Packages
 
-## [Sidebar Enhancements](https://sublime.wbond.net/packages/SideBarEnhancements)
+## [Sidebar Enhancements](https://sublime.wbond.net/packages/SideBarEnhancements) ##
 ![sidebare](images/sidebar.png)
 
 ## [Bracket Highlighter](https://sublime.wbond.net/packages/BracketHighlighter)
