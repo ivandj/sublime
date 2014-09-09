@@ -33,7 +33,7 @@ Sublime Text 3
 - [Fonts](#fonts)
 - [Location](#loc)
 - [Keybindings](#kbd)
-- [Preferences](#pref)
+- [Preferences](#prefs)
 - [Links](#links)
 
 ***
@@ -507,7 +507,7 @@ c:\Users\idj\AppData\Roaming\Sublime Text 3\
 
 ***
 
-<a id="pref">
+<a id="prefs">
 ## User.Settings (Mac)
 ```JSON
 {
