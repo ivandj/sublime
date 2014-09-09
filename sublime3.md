@@ -331,7 +331,7 @@ User.Preferences:
 ![jq](images/jq.png)
 
 ## [VAlign](https://sublime.wbond.net/packages/VAlign)
-<kbd>Super</kbd> + <kbd>\\</kbd> 
+<kbd>Super ⌘</kbd> + <kbd>\\</kbd> 
 
 ## [Modific](https://sublime.wbond.net/packages/Modific)
 Highlight lines changed since the last commit (supports Git, SVN, Bazaar, Mercurial and TFS).  
