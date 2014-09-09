@@ -394,7 +394,9 @@ User.Preferences:
 <a id="icon">
 # Icon
 ![ico1](images/icon.png)
+
 [http://dribbble.com/shots/382465-Sublime-Text-2-update-Replacement-Icon](http://dribbble.com/shots/382465-Sublime-Text-2-update-Replacement-Icon)
+
 [http://dribbble.com/search?page=2&q=sublime+text](http://dribbble.com/search?page=2&q=sublime+text)
 
 Mac Location:
