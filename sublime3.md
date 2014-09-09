@@ -2,7 +2,7 @@ Sublime Text 3
 ==============
 
 - [Packages](#packages)
-    - [Sidebar Enhancements](#pckg1)
+    - [Sidebar Enhancements][]
     - [Bracket Highlighter](#pckg2)
     - [Auto File Name](#pckg3)
     - [NodeJS](#pckg4)
