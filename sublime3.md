@@ -49,7 +49,7 @@ import urllib.request,os,hashlib; h = '7183a2d3e96f11eeadd761d777e62404' + 'e330
 <a id="packages">
 # Packages
 
-<a id="pckg1">
+<a id="pckg1"></a>
 ## [Sidebar Enhancements](https://sublime.wbond.net/packages/SideBarEnhancements)
 ![sidebare](images/sidebar.png)
 
