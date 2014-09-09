@@ -201,10 +201,10 @@ import urllib.request,os,hashlib; h = '7183a2d3e96f11eeadd761d777e62404' + 'e330
 # Packages
 
 ## [Sidebar Enhancements](https://sublime.wbond.net/packages/SideBarEnhancements)
-![sidebare](http://dl.dropbox.com/u/43596449/tito/sublime/SideBar/screenshot.png)
+![sidebare](images/sidebar.png)
 
 ## [Bracket Highlighter](https://sublime.wbond.net/packages/BracketHighlighter)
-![br](http://dl.dropbox.com/u/342698/BracketHighlighter/Example1.png)
+![br](images/bracketh.png)
 
 ## [Auto File Name](https://sublime.wbond.net/packages/AutoFileName)
 Add in User.Settings:
@@ -223,22 +223,22 @@ Add in User.Settings:
 ```
 
 ## [NodeJS](https://sublime.wbond.net/packages/Nodejs)
-![nodejsco](http://i.imgur.com/ZCFcC.png)
+![nodejsco](images/nodejs.png)
 
 ## [Git](https://sublime.wbond.net/packages/Git)
-![gitimg](https://github.com/kemayo/sublime-text-git/wiki/images/palette.png)
+![gitimg](images/git.png)
 
 ## [GitGutter](https://sublime.wbond.net/packages/GitGutter)
-![gitgutterimg](https://raw.github.com/jisaacks/GitGutter/master/screenshot.png)
+![gitgutterimg](images/gitgutter.png)
 
 ## [Origami](https://sublime.wbond.net/packages/Origami)
-![origami](http://wesbos.github.io/Sublime-Text-Power-User-Talk/images/woah.png)
+![origami](images/origami.png)
 
 ## [Color Picker](https://sublime.wbond.net/packages/ColorPicker)
 Mac: <kbd>SUPER ⌘</kbd> + <kbd>SHIFT ⇧</kbd> + <kbd>c</kbd><br/>
 Win: <kbd>CTRL ⌃</kbd> + <kbd>SHIFT ⇧</kbd> + <kbd>c</kbd>
 
-![color picker](http://i.minus.com/i5KI6SBAfs7Qk.png)
+![color picker](images/colorp.png)
 
  
 ## [PlainTasks](https://sublime.wbond.net/packages/PlainTasks)
@@ -280,11 +280,11 @@ User.Preferences:
   ]
 }
 ```
-![plaint](http://cl.ly/image/1q100Q212o2Q/ss.png)
+![plaint](images/plaintasks.png)
  
 ## [Emmet](https://sublime.wbond.net/packages/Emmet)
 
-![emmet](http://wesbos.github.io/Sublime-Text-Power-User-Talk/images/emmet-html.gif)
+![emmet](images/emmet.gif)
 
 ### Available actions
 
@@ -320,15 +320,15 @@ User.Preferences:
 
 
 ## [Tabs Extra](https://sublime.wbond.net/packages/TabsExtra)
-![tabse](https://dl.dropboxusercontent.com/u/342698/TabsExtra/Menu.png)
+![tabse](images/tabsx.png)
 
 ## [Default File Type](https://sublime.wbond.net/packages/Default%20File%20Type)
 
 ## [Dictionary​Auto​Complete](https://sublime.wbond.net/packages/DictionaryAutoComplete)
-![discta](https://lh3.googleusercontent.com/-x4YM7vJ1-W4/UXVsHF5l-oI/AAAAAAAAAVk/in3aQcg7jEI/s872/4.gif)
+![discta](images/dictac.gif)
 
 ## [jQuery](https://sublime.wbond.net/packages/jQuery)
-![jq](http://i.imgur.com/pASjCdM.png)
+![jq](images/jq.png)
 
 ## [VAlign](https://sublime.wbond.net/packages/VAlign)
 <kbd>Super</kbd> + <kbd>\\</kbd> 
@@ -336,10 +336,7 @@ User.Preferences:
 ## [Modific](https://sublime.wbond.net/packages/Modific)
 Highlight lines changed since the last commit (supports Git, SVN, Bazaar, Mercurial and TFS).  
 
-![modific](http://i.imgur.com/DX8TeJT.jpg)
-![modific2](http://i.imgur.com/csCw7.jpg)
-![modific3](http://i.imgur.com/siVOXl.jpg)
-![modigic4](http://i.imgur.com/sldHNl.jpg)
+![modific](images/modific1.jpg)
 
 ## [Gutter Color](https://sublime.wbond.net/packages/Gutter%20Color)
 ImageMagic setup:
@@ -357,10 +354,10 @@ Configuration (User.Settings):
     }
 ```
 
-![gutter](https://github.com/ivandj/GutterColor/raw/master/screenshot.png)
+![gutter](images/gutterc.png)
 
 ## [Accessibility (aria)](https://sublime.wbond.net/packages/Accessibility)
-![aria](https://raw.githubusercontent.com/Yago/ST3-Accessibility/master/demo.gif)
+![aria](images/aria.gif)
 
 ## [Data Converter](https://sublime.wbond.net/packages/DataConverter)
 A package for Sublime Text 2 for converting CSV data to other formats.  
@@ -486,7 +483,7 @@ Options:
 }
 ```
 
-![theme](https://raw.github.com/thinkpixellab/flatland/master/screenshots.png)
+![theme](images/flatland.png)
 
 
 ***
@@ -570,7 +567,7 @@ Tabs width:
   "spacegray_sidebar_tree_xlarge": true
 ```
 
-![theme](https://raw.githubusercontent.com/kkga/spacegray/master/Screenshots/spacegray.png)
+![theme](images/spacegray.png)
 
 ***
 
@@ -648,7 +645,7 @@ Taller or smaller tabs
 ![Tab Sizes](https://raw.githubusercontent.com/Orlmente/Theme-Asphalt/master/_screenshots_/tab_heights.png)
 
 
-![theme](https://raw.githubusercontent.com/Orlmente/Theme-Asphalt/master/_screenshots_/Asphalt.png)
+![theme](images/asphalt.png)
 
 ## Misc Themes
 - [http://sheerun.github.io/sublime-wombat-theme/](http://sheerun.github.io/sublime-wombat-theme/)
@@ -661,7 +658,7 @@ Taller or smaller tabs
 ***
 
 # Icon
-![ico1](https://d13yacurqjgara.cloudfront.net/users/2516/screenshots/357612/sublimetext2.jpg)
+![ico1](images/icon.png)
 [http://dribbble.com/shots/382465-Sublime-Text-2-update-Replacement-Icon](http://dribbble.com/shots/382465-Sublime-Text-2-update-Replacement-Icon)
 [http://dribbble.com/search?page=2&q=sublime+text](http://dribbble.com/search?page=2&q=sublime+text)
 
@@ -675,11 +672,11 @@ Mac Location:
 # Fonts
 
 ### [m+ 1m](http://www.fontsquirrel.com/fonts/M-1m)
-![m11](http://www.fontsquirrel.com/widgets/font_image/specimen_alphabet/446967587adbf3a0e49e0b3745e345f7) 
+![m11](images/fontm.png) 
 
 ### [Envy Code R](http://damieng.com/blog/2008/05/26/envy-code-r-preview-7-coding-font-released)
-![envy1](http://images.damieng.com/blog/EnvyCodeR-PR7-Humane.png) 
-![envy2](http://images.damieng.com/blog/EnvyCodeR-PR7-Humane-Large.png) 
+![envy1](images/fontenvy1.png)
+![envy2](images/fontenvy2.png)
 
 ***
  
