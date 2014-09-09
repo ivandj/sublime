@@ -32,7 +32,7 @@ Sublime Text 3
 - [Icon](#icon)
 - [Fonts](#fonts)
 - [Location](#locjump)
-- [Keybindings](#kbd)
+- [Keybindings](#Keybindings)
 - [Preferences](#pref1s)
 - [Links](#links)
 
@@ -420,7 +420,7 @@ c:\Users\idj\AppData\Roaming\Sublime Text 3\
 
 ***
 
-## User.Keybindings (Mac)
+## Keybindings (Mac)
 ```JSON
 [
     { "keys": ["f1"], "command": "goto_documentation" },
