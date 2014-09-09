@@ -1,6 +1,8 @@
 Sublime Text 3
 ==============
 
+
+- [Package Control](#package-control)
 - [Packages](#packages)
     - [Sidebar Enhancements](#sidebar-enhancements)
     - [Bracket Highlighter](#bracket-highlighter)
