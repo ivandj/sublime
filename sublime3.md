@@ -315,7 +315,6 @@ or this (JSON):
 # Themes
 
 ## [Flatland](https://sublime.wbond.net/packages/Theme%20-%20Flatland)
-
 User.Prefernces:
 
 ```JSON
@@ -346,9 +345,7 @@ Options:
 ***
 
 ## [Spacegray](https://sublime.wbond.net/packages/Theme%20-%20Spacegray)
-
-
-#### Settings for Spacegray
+User.Preferences:
 
 ```json
 {
