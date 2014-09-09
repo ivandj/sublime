@@ -1,7 +1,7 @@
 Sublime Text 3
 ==============
 
-This is my Sublime resource center. When I need a clean install, this is the place I go to for all the info. Hope you find it useful.
+This is my Sublime resource center. When I need a clean install, this is a 1-page-has-it-all I go to for all the info. Hope you find it useful. Keep scrolling or jump to a particular section.
 
 - [Package Control](#package-control)
 - [Packages](#packages)
