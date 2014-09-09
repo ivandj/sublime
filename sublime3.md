@@ -418,7 +418,7 @@ Mac Location:
 
 ***
 
-# Location
+## Application Default Location
 ```
 /Users/idj/Library/Application Support/Sublime Text 3
 c:\Users\idj\AppData\Roaming\Sublime Text 3\
