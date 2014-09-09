@@ -38,7 +38,7 @@ Sublime Text 3
     - [Misc](#misc-themes)
 - [Icon](#icon)
 - [Fonts](#fonts)
-- [Location](#locjump)
+- [Application Default Location](#application-default-location)
 - [Keybindings](#keybindings-mac)
 - [Preferences](#usersettings-mac)
 - [Links](#links)
