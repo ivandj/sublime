@@ -3,19 +3,19 @@ Sublime Text 3 - To Check
 
 ### Packages
 
-✔ [color picker](https://github.com/weslly/ColorPicker)
-✔ [inline google translate](https://sublime.wbond.net/packages/Inline%20Google%20Translate)
-✔ [better find buffer](https://sublime.wbond.net/packages/BetterFindBuffer)
-✔ [string encode](https://sublime.wbond.net/packages/StringEncode)
-✔ [md editing](https://sublime.wbond.net/packages/MarkdownEditing)
-✔ [table editor](https://sublime.wbond.net/packages/Table%20Editor)
-✔ [jekyll](https://sublime.wbond.net/packages/Jekyll)
-✔ [git gutter](https://sublime.wbond.net/packages/GitGutter)
-✔ [html snippets](https://sublime.wbond.net/packages/HTML%20Snippets)
-✔ [origami](https://sublime.wbond.net/packages/Origami)
-✔ [list css vars](https://sublime.wbond.net/packages/List%20stylesheet%20variables)
-✔ [Hayaku - tools for writing CSS faster](https://sublime.wbond.net/packages/Hayaku%20-%20tools%20for%20writing%20CSS%20faster)
-✔ [find+](https://sublime.wbond.net/packages/Find%2B%2B)
+✔ [color picker](https://github.com/weslly/ColorPicker)<br/>
+✔ [inline google translate](https://sublime.wbond.net/packages/Inline%20Google%20Translate)<br/>
+✔ [better find buffer](https://sublime.wbond.net/packages/BetterFindBuffer)<br/>
+✔ [string encode](https://sublime.wbond.net/packages/StringEncode)<br/>
+✔ [md editing](https://sublime.wbond.net/packages/MarkdownEditing)<br/>
+✔ [table editor](https://sublime.wbond.net/packages/Table%20Editor)<br/>
+✔ [jekyll](https://sublime.wbond.net/packages/Jekyll)<br/>
+✔ [git gutter](https://sublime.wbond.net/packages/GitGutter)<br/>
+✔ [html snippets](https://sublime.wbond.net/packages/HTML%20Snippets)<br/>
+✔ [origami](https://sublime.wbond.net/packages/Origami)<br/>
+✔ [list css vars](https://sublime.wbond.net/packages/List%20stylesheet%20variables)<br/>
+✔ [Hayaku - tools for writing CSS faster](https://sublime.wbond.net/packages/Hayaku%20-%20tools%20for%20writing%20CSS%20faster)<br/>
+✔ [find+](https://sublime.wbond.net/packages/Find%2B%2B)<br/>
 - [deselect](https://sublime.wbond.net/packages/Deselect)
 - [color highlihter](https://sublime.wbond.net/packages/Color%20Highlighter)
 - [sublimall](https://sublime.wbond.net/packages/Sublimall)
