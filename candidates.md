@@ -16,6 +16,7 @@ Sublime Text 3 - To Check
 - ✔ [list css vars](https://sublime.wbond.net/packages/List%20stylesheet%20variables)
 - ✔ [Hayaku - tools for writing CSS faster](https://sublime.wbond.net/packages/Hayaku%20-%20tools%20for%20writing%20CSS%20faster)
 - ✔ [find+](https://sublime.wbond.net/packages/Find%2B%2B)
+- [deselect](https://sublime.wbond.net/packages/Deselect)
 - [color highlihter](https://sublime.wbond.net/packages/Color%20Highlighter)
 - [sublimall](https://sublime.wbond.net/packages/Sublimall)
 - [fake data gen](https://sublime.wbond.net/packages/FakeDataGenerator)
