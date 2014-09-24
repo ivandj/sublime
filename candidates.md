@@ -3,6 +3,7 @@ Sublime Text 3 - To Check
 
 ### Packages
 
+- [pzformat](https://sublime.wbond.net/packages/PzFormat)
 - [fuzzy file path autocomplete](https://sublime.wbond.net/packages/FuzzyFilePath)
 - [deselect](https://sublime.wbond.net/packages/Deselect)
 - [color highlihter](https://sublime.wbond.net/packages/Color%20Highlighter)
