@@ -20,6 +20,17 @@ Sublime Text 3 - To Check
 - [file nav](https://sublime.wbond.net/packages/File%20Navigator)
 - [sftp](http://www.brentmountford.com/tutorials/sublime-text-2-sftp-setup-usage/)
 
+### links
+
+- [nodejs](http://scottksmith.com/blog/2014/09/29/3-essential-sublime-text-plugins-for-node-and-javascript-developers/)
+- [visual guide](http://webdesign.tutsplus.com/articles/simple-visual-enhancements-for-better-coding-in-sublime-text--webdesign-18052)
+- [best tut1](http://scotch.io/bar-talk/best-of-sublime-text-3-features-plugins-and-settings)
+- [best tut2](http://scotch.io/series/the-complete-visual-guide-to-sublime-text-3)
+- [words as sep](http://stackoverflow.com/questions/15906097/use-upper-case-as-word-separator-in-sublime-text-2/18395287#18395287)
+- [35 themes](http://designbeep.com/2014/06/10/35-cool-sublime-text-themes/)
+
+***
+
 ✔ [color picker](https://github.com/weslly/ColorPicker)<br/>
 ✔ [inline google translate](https://sublime.wbond.net/packages/Inline%20Google%20Translate)<br/>
 ✔ [better find buffer](https://sublime.wbond.net/packages/BetterFindBuffer)<br/>
@@ -33,12 +44,3 @@ Sublime Text 3 - To Check
 ✔ [list css vars](https://sublime.wbond.net/packages/List%20stylesheet%20variables)<br/>
 ✔ [Hayaku - tools for writing CSS faster](https://sublime.wbond.net/packages/Hayaku%20-%20tools%20for%20writing%20CSS%20faster)<br/>
 ✔ [find+](https://sublime.wbond.net/packages/Find%2B%2B)<br/>
-
-
-### links
-
-- [visual guide](http://webdesign.tutsplus.com/articles/simple-visual-enhancements-for-better-coding-in-sublime-text--webdesign-18052)
-- [best tut1](http://scotch.io/bar-talk/best-of-sublime-text-3-features-plugins-and-settings)
-- [best tut2](http://scotch.io/series/the-complete-visual-guide-to-sublime-text-3)
-- [words as sep](http://stackoverflow.com/questions/15906097/use-upper-case-as-word-separator-in-sublime-text-2/18395287#18395287)
-- [35 themes](http://designbeep.com/2014/06/10/35-cool-sublime-text-themes/)
