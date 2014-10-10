@@ -32,6 +32,7 @@ Sublime Text 3 - To Check
 
 ***
 
+✔✔ [toDone](https://sublime.wbond.net/packages/ToDone)
 ✔ [color picker](https://github.com/weslly/ColorPicker)<br/>
 ✔ [inline google translate](https://sublime.wbond.net/packages/Inline%20Google%20Translate)<br/>
 ✔ [better find buffer](https://sublime.wbond.net/packages/BetterFindBuffer)<br/>
