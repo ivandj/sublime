@@ -1,6 +1,9 @@
 Sublime Text 3 - To Check
 ==================================
 
+### Themes
+- [scotch theme list](http://scotch.io/bar-talk/the-best-sublime-text-3-themes-of-2014)
+
 ### Packages
 
 - [dotfiles synthax](https://sublime.wbond.net/packages/Dotfiles%20Syntax%20Highlighting)
