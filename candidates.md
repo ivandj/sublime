@@ -5,7 +5,7 @@ Sublime Text 3 - To Check
 - [scotch theme list](http://scotch.io/bar-talk/the-best-sublime-text-3-themes-of-2014)
 
 ### Packages
-
+- [grep, ack, ag, git grep, or findstr in search](https://sublime.wbond.net/packages/Search%20in%20Project)
 - [dotfiles synthax](https://sublime.wbond.net/packages/Dotfiles%20Syntax%20Highlighting)
 - [wordcount](https://sublime.wbond.net/packages/WordCount)
 - [pzformat](https://sublime.wbond.net/packages/PzFormat)
