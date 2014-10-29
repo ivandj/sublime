@@ -25,6 +25,7 @@ This is my Sublime resource center. When I need a clean install, this is a 1-pag
     - [Gutter Color](#gutter-color)
     - [Accessibility (aria)](#accessibility-aria)
     - [Data Converter](#data-converter)
+    - [Color Highlighter](#color-hi)
     - [Packages: Syntax](#packages-syntax)
         - CSS3, CSS Less(ish), Hayaku - tools for writing CSS faster, SCSS, Stylus, Markdown Editing
         - EJS, Java​Script​Next - ES6 Syntax, List LESS variables, List Stylesheet variables
@@ -275,6 +276,11 @@ or this (JSON):
 * XML (property list)
 * XML for data-driven Adobe Illustrator
 * YAML
+
+
+## [Color Highlighter](https://sublime.wbond.net/packages/Color%20Highlighter)
+![ch1](http://i.imgur.com/UPmEk09.png)
+![ch2](http://sametmax.com/wp-content/uploads/2013/04/hilight-color.gif)
 
 ***
 
