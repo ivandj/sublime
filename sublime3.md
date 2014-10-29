@@ -25,7 +25,7 @@ This is my Sublime resource center. When I need a clean install, this is a 1-pag
     - [Gutter Color](#gutter-color)
     - [Accessibility (aria)](#accessibility-aria)
     - [Data Converter](#data-converter)
-    - [Color Highlighter](#color-hi)
+    - [Color Highlighter](#color-highlighter)
     - [Packages: Syntax](#packages-syntax)
         - CSS3, CSS Less(ish), Hayaku - tools for writing CSS faster, SCSS, Stylus, Markdown Editing
         - EJS, Java​Script​Next - ES6 Syntax, List LESS variables, List Stylesheet variables
