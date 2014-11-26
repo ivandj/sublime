@@ -29,6 +29,7 @@ Sublime Text 3 - To Check
 
 ### links
 
+- [css tricks](http://css-tricks.com/sublime-text-front-end-developers/)
 - [nodejs](http://scottksmith.com/blog/2014/09/29/3-essential-sublime-text-plugins-for-node-and-javascript-developers/)
 - [visual guide](http://webdesign.tutsplus.com/articles/simple-visual-enhancements-for-better-coding-in-sublime-text--webdesign-18052)
 - [best tut1](http://scotch.io/bar-talk/best-of-sublime-text-3-features-plugins-and-settings)
