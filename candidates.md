@@ -5,6 +5,7 @@ Sublime Text 3 - To Check
 - [scotch theme list](http://scotch.io/bar-talk/the-best-sublime-text-3-themes-of-2014)
 
 ### Packages
+- [improved sql](https://sublime.wbond.net/packages/ImprovedSQL)
 - [meteor snippets](https://sublime.wbond.net/packages/Meteor%20Snippets)
 - [fix mac path](https://sublime.wbond.net/packages/Fix%20Mac%20Path)
 - [grep, ack, ag, git grep, or findstr in search](https://sublime.wbond.net/packages/Search%20in%20Project)
