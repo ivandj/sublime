@@ -5,6 +5,7 @@ Sublime Text 3 - To Check
 - [scotch theme list](http://scotch.io/bar-talk/the-best-sublime-text-3-themes-of-2014)
 
 ### Packages
+- [arduino](https://packagecontrol.io/packages/Arduino-like%20IDE)
 - [processing](https://packagecontrol.io/packages/Processing)
 - [better completion](https://packagecontrol.io/packages/Better%20Completion)
 - [compare side by side](https://sublime.wbond.net/packages/Compare%20Side-By-Side)
