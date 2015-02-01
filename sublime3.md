@@ -85,6 +85,9 @@ Add in User.Settings:
 ]
 ```
 
+## [Open-Include](https://packagecontrol.io/packages/Open-Include)
+<kbd>ALT ⌥</kbd> + <kbd>D</kbd>
+
 ## [NodeJS](https://sublime.wbond.net/packages/Nodejs)
 ![nodejsco](images/nodejs.png)
 
