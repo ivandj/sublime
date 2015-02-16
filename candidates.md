@@ -47,6 +47,7 @@ Sublime Text 3 - To Check
 
 ***
 
+✔ [fileBrowser](https://packagecontrol.io/packages/FileBrowser)
 ✔ [toDone](https://sublime.wbond.net/packages/ToDone) <br>
 ✔ [color picker](https://github.com/weslly/ColorPicker)<br/>
 ✔ [inline google translate](https://sublime.wbond.net/packages/Inline%20Google%20Translate)<br/>
