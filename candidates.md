@@ -5,6 +5,7 @@ Sublime Text 3 - To Check
 - [scotch theme list](http://scotch.io/bar-talk/the-best-sublime-text-3-themes-of-2014)
 
 ### Packages
+- [autocomplete fuzzy](https://packagecontrol.io/packages/AutocompletionFuzzy)
 - [icons](https://packagecontrol.io/packages/Icon%20Fonts)
 - [arduino](https://packagecontrol.io/packages/Arduino-like%20IDE)
 - [processing](https://packagecontrol.io/packages/Processing)
