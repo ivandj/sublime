@@ -493,7 +493,9 @@ If you are primarly working on a Windows machine and are used to using <kbd>CTRL
 | <kbd>CTRL ⌃</kbd> + <kbd>SHIFT ⇧</kbd> + <kbd>F</kbd> | Find in files |
 | <kbd>ALT ⌥</kbd> + <kbd>F3</kbd> | Select all instances of word |
 | <kbd>CTRL ⌃</kbd> + <kbd>SHIFT ⇧</kbd> + <kbd>W</kbd>| Wrap Selection in Tag |
-| <kbd>SUPERL ⌘</kbd> + <kbd>'</kbd> | Expand to Quotes |
+| <kbd>SUPER ⌘</kbd> + <kbd>'</kbd> | Expand to Quotes |
+| <kbd>SUPER ⌘</kbd> + <kbd>SHIFT ⇧</kbd> + <kbd>A</kbd> | Expand to Tags |
+
 
 ### Links 2
 - [https://gist.github.com/lucasfais/1207002](https://gist.github.com/lucasfais/1207002)
