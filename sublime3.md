@@ -674,3 +674,13 @@ If you are primarly working on a Windows machine and are used to using <kbd>CTRL
 - [http://stackoverflow.com/questions/9495007/indenting-code-in-sublime-text-2](http://stackoverflow.com/questions/9495007/indenting-code-in-sublime-text-2)
 - [http://stackoverflow.com/questions/9499848/sublime-text-2-code-snippet](http://stackoverflow.com/questions/9499848/sublime-text-2-code-snippet)
 - [http://stackoverflow.com/questions/7476220/image-source-completion-for-sublime-text-2](http://stackoverflow.com/questions/7476220/image-source-completion-for-sublime-text-2)
+
+
+
+
+## Misc Theme
+- overlay for themes: Embedded Source background
+
+
+
+
